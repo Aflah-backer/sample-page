@@ -37,6 +37,7 @@ function Content() {
           >
             <GridItem className="avatharContainer">
               <Avatar className="avathar" src="https://bit.ly/broken-link" />
+              <p>5min ago</p>
             </GridItem>
             <GridItem colSpan={4} >
               <h1>userName</h1>
@@ -55,7 +56,7 @@ function Content() {
                 </p>
               </div>
               <div className="footer">
-                {/* <h1><FcLike/></h1> */}
+                <h2>Like</h2>
                 <h2>comments</h2>
               </div>
             </GridItem>
